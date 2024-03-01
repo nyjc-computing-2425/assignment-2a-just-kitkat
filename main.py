@@ -1,5 +1,6 @@
 num = input('Enter a number (decimal or integer): ')
 # type your code here
+num = num.strip()
 sf = 0
 leading_zeros = True
 for char in num:
